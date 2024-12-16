@@ -1,0 +1,85 @@
+body{
+    font-family: "roboto", sans-serif;
+}
+
+.navbar{
+    background-color: RGB(152, 194, 138);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: white;
+    color: RGB(152, 194, 138);
+}
+
+#cabecalho,
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: white;
+}
+
+.navbar-toggler{
+    background-color: azure;
+}
+
+.section-title{
+    font-family: "Reggae One", cursive;
+}
+
+header, label, aside{
+    font-family: "Reggae One", cursive;
+}
+
+button.btn{
+    font-family: "Reggae One", cursive;
+}
+
+.text-colored{
+    font-family: "Reggae One", cursive;
+}
+
+#sobre-o-restaurante, 
+#cardapio{
+    background-color: RGB(181, 101, 29);
+}
+
+.text-colored{
+    color: RGB(152, 194, 138);
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button{
+    background-color: RGB(152, 194, 138);
+    color: white;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: RGB(152, 194, 138);
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.fixed-size {
+    width: 100%; /* Garante que ocupe o contêiner pai */
+    height: 200px; /* Altura fixa */
+    object-fit: cover; /* Ajusta o conteúdo para preencher o espaço */
+    border-radius: 8px; /* Opcional, para cantos arredondados */
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
